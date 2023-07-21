@@ -17,6 +17,7 @@ async function getData(url) {
   data = await response.json();
 
   console.log(data);
+  // yeni özellik.
 
   // Eğer previous null ise previous tuşu disable olsun.
 
