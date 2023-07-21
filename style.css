@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(27, 26, 23);
+}
+
+.character-item {
+  color: #ffffff;
+}
+
+.list-item__link {
+  background-color: grey;
+  color: white;
+  padding: 4px 3px;
+  border-radius: 4px;
+}

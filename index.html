@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="flex justify-between items-center">
+        <div class="w-20 ml-7"><img src="img/logo.svg" alt="" /></div>
+        <div>
+          <ul class="flex items-center text-white text-lg mr-6">
+            <li
+              class="p-[13px] hover:text-amber-200 cursor-pointer ease-in duration-300"
+            >
+              <i class="fa-solid fa-user fa-sm px-[9px]"></i>Personagens
+            </li>
+            <li
+              class="p-[13px] hover:text-amber-200 cursor-pointer ease-in duration-300"
+            >
+              <i class="fa-solid fa-film fa-sm px-[9px]"></i>Filmes
+            </li>
+            <li
+              class="p-[13px] hover:text-amber-200 cursor-pointer ease-in duration-300"
+            >
+              <i class="fa-solid fa-plane fa-sm px-[9px]"></i>Naves Espaciais
+            </li>
+            <li
+              class="p-[13px] hover:text-amber-200 cursor-pointer ease-in duration-300"
+            >
+              <i class="fa-solid fa-car fa-sm px-[9px]"></i>Veicuios
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="pt-12 pl-12">
+        <h1 class="text-white text-[35px] font-bold">
+          Buscador -
+          <span class="text-amber-200 border-b border-amber-400 border-b-4"
+            >Star Wars</span
+          >
+        </h1>
+      </div>
+      <div class="pt-8 pl-12 flex place-content-between">
+        <div>
+          <input
+            type="text"
+            placeholder="Digite o nome do personagem a ser buscado..."
+            class="py-3 tsxt-lg rounded-lg"
+            style="border: 0; outline: 0; width: 32rem"
+          />
+        </div>
+        <div class="flex text-white text-lg">
+          <p class="mr-6">Todos</p>
+          <p>Favoritos</p>
+        </div>
+      </div>
+      <div class="pl-10 pt-10 pb-10">
+        <ul id="pagination" class="inline-flex text-white">
+          <!--<li class="mx-2">
+            <a href="#" class="bg-stone-600 py-3 px-4 rounded-lg"
+              ><i class="fa-solid fa-chevron-left"></i
+            ></a>
+          </li>
+          <li class="mx-2">
+            <a href="#" class="bg-stone-600 py-3 px-4 rounded-lg">1</a>
+          </li>
+          <li class="mx-2">
+            <a href="#" class="bg-stone-600 py-3 px-4 rounded-lg"
+              ><i class="fa-solid fa-chevron-right"></i
+            ></a>
+          </li>-->
+        </ul>
+      </div>
+      <div id="characters"></div>
+    </section>
+    <section>
+      <div class="pl-12">
+        <img src="" alt="" />
+        <div class="content"></div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
+  </body>
+</html>
